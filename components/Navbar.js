@@ -10,29 +10,26 @@ const navbar = () => {
                 <nav className="nav-menu">
                 <ul>
                     <li >
-                        <Link href="/">
-                            
+                        <Link href="/">  
                             <a ><i className="bx bx-home"></i> <span>Home</span></a>
                         </Link>
-                        </li>
+                    </li>
                     <li>
-                        <Link href="/about">
-                            
+                        <Link href="/about">                           
                             <a ><i className="bx bx-user"></i> <span>About</span></a>
                         </Link>
-                        </li>
+                    </li>
                     <li>
-                        <Link href="/resume">
-                            
+                        <Link href="/resume">                          
                             <a ><i className="bx bx-file-blank"></i> <span>Resume</span></a>
                         </Link>
-                        </li>
+                    </li>
                          
                     <li>
                         <Link href="/portfolio">
                             <a ><i className="bx bx-book-content"></i> <span>Portfolio</span></a>
                         </Link>
-                        </li>
+                    </li>
                         {/*
                     <li>
                         <Link>
@@ -42,11 +39,10 @@ const navbar = () => {
                         </li>
                         */}
                     <li>
-                        <Link href="/contact">
-                            
+                        <Link href="/contact">                         
                             <a ><i className="bx bx-envelope"></i> <span>Contact</span></a>
                         </Link>
-                        </li> 
+                    </li> 
                 </ul>
             </nav>
 
