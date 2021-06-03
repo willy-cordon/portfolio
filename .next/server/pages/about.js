@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\HP\\Desktop\\portfolio\\components\\About.js";
+var _jsxFileName = "D:\\proyectsPrivate\\portfolio\\components\\About.js";
 
 
 const About = () => {
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layouts_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layouts/Layout */ "./components/layouts/Layout.js");
 /* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/About */ "./components/About.js");
 
-var _jsxFileName = "C:\\Users\\HP\\Desktop\\portfolio\\pages\\about.js";
+var _jsxFileName = "D:\\proyectsPrivate\\portfolio\\pages\\about.js";
 
 
 
