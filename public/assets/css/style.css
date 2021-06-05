@@ -12,6 +12,15 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+body::-webkit-scrollbar{
+  width: 9px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #131646;
+  border-radius: 5px;
+
+}
 
 a {
   color: #0563bb;
@@ -25,6 +34,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -122,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 15px;
+  padding: 10px;
   overflow-y: auto;
 }
 
@@ -152,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > ul > li {
-  padding: 10px;
+  padding: 5px;
   position: relative;
   white-space: nowrap;
 }
@@ -171,15 +181,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   transition: 0.3s;
+  border: rgba(25, 25, 37, 0.219) solid 1px;
 }
 
 .nav-menu a i {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #2d343b;
 }
 
 @media (min-width: 992px) {
@@ -248,10 +259,33 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/background/Cloudy.svg") top right no-repeat;
+  background: url("../img/background/Fade-In-Background.svg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
+
+/*--------------------------------------------------------------
+# Social media
+--------------------------------------------------------------*/
+.twitter:hover{
+  border-bottom: #34c1da 3px solid;
+}
+.facebook:hover{
+  border-bottom: #34c1da 3px solid;
+}
+.instagram:hover{
+  border-bottom: #34c1da 3px solid;
+} 
+.linkedin:hover{
+  border-bottom: #34c1da 3px solid;
+}
+.github:hover{
+  border-bottom: #34c1da 3px solid;
+}
+
+/*--------------------------------------------------------------
+# end
+--------------------------------------------------------------*/
 
 @media (min-width: 992px) {
   #hero {
@@ -327,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  padding-left: 3%;
 }
 
 .section-title {
@@ -376,7 +411,7 @@ section {
 
 #about{
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: url("../img/background/trasp2.svg") top right no-repeat;
   background-size: cover;
   position: relative;
@@ -960,7 +995,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#contact{
+/* #contact{
   width: 100%;
   height: 100vh;
   background: url("../img/background/trasp2.svg") top right no-repeat;
@@ -976,7 +1011,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .contact .info {
   width: 100%;

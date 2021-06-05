@@ -11,12 +11,14 @@ const navbar = () => {
                 <ul>
                     <li >
                         <Link href="/">  
+                        
                             <a ><i className="bx bx-home"></i> <span>Home</span></a>
                             {/* <a > <img className="img-fluid" src="assets/img/icons/home2.png" /> <span>Home</span></a> */}
                         </Link>
                     </li>
                     <li>
                         <Link href="/about">                           
+                           
                             <a ><i className="bx bx-user"></i> <span>About</span></a>
                         </Link>
                     </li>

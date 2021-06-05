@@ -36,7 +36,7 @@ componentWillUnmount() {
                     <a href="#" className="twitter text-white"><i className="bx bxl-twitter"></i></a>
                     <a href="#" className="facebook text-white"><i className="bx bxl-facebook"></i></a>
                     <a href="#" className="instagram text-white"><i className="bx bxl-instagram"></i></a>
-                    <a href="#" className="google-plus text-white"><i className="bx bxl-skype"></i></a>
+                    <a href="#" className="github text-white"><i className="bx bxl-github"></i></a>
                     <a href="#" className="linkedin text-white"><i className="bx bxl-linkedin"></i></a>
                 </div>
                 </div>

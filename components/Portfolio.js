@@ -25,7 +25,7 @@ const Portfolio = () => {
 
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -37,9 +37,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -51,9 +51,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -65,9 +65,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -79,9 +79,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -93,9 +93,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div className="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
                     <div className="portfolio-info">
@@ -107,16 +107,16 @@ const Portfolio = () => {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div className="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt=""  />
+                    <img src="assets/img/portfolio/1.png" className="img-fluid" alt=""  />
                     <div className="portfolio-info">
                         <h4>Card 1</h4>
                         <p>Card</p>
                         <div className="portfolio-links">
-                        <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="bx bx-plus"></i></a>
+                        <a href="assets/img/portfolio/1.png" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="bx bx-plus"></i></a>
                         <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ const Portfolio = () => {
 
                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div className="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt=""  />
+                    <img src="assets/img/portfolio/2.png" className="img-fluid" alt=""  />
                     <div className="portfolio-info">
                         <h4>Card 3</h4>
                         <p>Card</p>
@@ -139,7 +139,62 @@ const Portfolio = () => {
 
                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div className="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt=""  />
+                    <img src="assets/img/portfolio/3.png" className="img-fluid" alt=""  />
+                    <div className="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <div className="portfolio-links">
+                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div className="portfolio-wrap">
+                    <img src="assets/img/portfolio/4.png" className="img-fluid" alt=""  />
+                    <div className="portfolio-info">
+                        <h4>Card 1</h4>
+                        <p>Card</p>
+                        <div className="portfolio-links">
+                        <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div className="portfolio-wrap">
+                    <img src="assets/img/portfolio/5.jpg" className="img-fluid" alt=""  />
+                    <div className="portfolio-info">
+                        <h4>Card 3</h4>
+                        <p>Card</p>
+                        <div className="portfolio-links">
+                        <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div className="portfolio-wrap">
+                    <img src="assets/img/portfolio/6.jpg" className="img-fluid" alt=""  />
+                    <div className="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <div className="portfolio-links">
+                        <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div className="portfolio-wrap">
+                    <img src="assets/img/portfolio/7.png" className="img-fluid" alt=""  />
                     <div className="portfolio-info">
                         <h4>Web 3</h4>
                         <p>Web</p>
