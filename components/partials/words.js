@@ -1,7 +1,8 @@
 // filename: words.js
 const words = [
-    'Javascript Consultant',
-    'Cloud Architect',
-    'Open source contributor'
+    'Programador web',
+    'Emprendedor',
+    'Freelance',
+    'Cafeinomano'
   ]
   export default words
