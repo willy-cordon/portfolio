@@ -8,8 +8,9 @@ const Resume = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Curriculum</h2>
+                <a href="documents/cv.pdf" download="CvWillyCordon"  className="btn btn-outline-primary ">Descargar Curriculum</a>
+                {/* <p>Les presento alguno de los datos más destacados de mí cv, el cual se puede descargar</p> */}
                 </div>
 
                 <div className="row">

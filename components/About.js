@@ -16,7 +16,7 @@ const About = () => {
                     <img src="assets/img/asset.svg" className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>Full Stack Web Developer.</h3>
+                    <h3>Algunos datos 📄</h3>
                         {/* <p className="font-italic">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -24,17 +24,17 @@ const About = () => {
                     <div className="row">
                     <div className="col-lg-6">
                         <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Birthday:</strong> 5 de junio 1993</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> willycordon.dev</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> +54 1164595061</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Buenos Aires - Argentina</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Cumpleaños:</strong> 5 de junio 1993</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Web:</strong> willycordon.dev</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Celular:</strong> +54 1164595061</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Ciudad:</strong> Buenos Aires - Argentina</li>
                         </ul>
                     </div>
                     <div className="col-lg-6">
                         <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Age:</strong> 27</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>PhEmailone:</strong> willy.cordon93@gmail.com</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Edad:</strong> 27</li>
+                        {/* <li><i className="icofont-rounded-right"></i> <strong>P:</strong> Master</li> */}
+                        <li><i className="icofont-rounded-right"></i> <strong>E-mail:</strong> willy.cordon93@gmail.com</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
                         </ul>
                     </div>
@@ -50,7 +50,7 @@ const About = () => {
             </section>
 
             
-            <section id="skills" className="skills section-bg">
+            {/* <section id="skills" className="skills section-bg">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
@@ -113,7 +113,7 @@ const About = () => {
                 </div>
 
             </div>
-            </section>
+            </section> */}
   
         </div>
     )
