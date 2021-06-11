@@ -10,6 +10,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="assets/img/cort.jpg" />
+        <meta property="og:url" content="https://willycordon.vercel.app/" />
         
             <link href="assets/img/favicon.png" rel="icon" />
             <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
