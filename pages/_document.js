@@ -14,6 +14,16 @@ class MyDocument extends Document {
         <meta property="og:type" content="website" />
         <meta property="og:image" itemprop="image primaryImageOfPage" content="assets/img/cort.jpg" />
         <meta property="og:url" content="https://willycordon.vercel.app/" />
+
+       
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYD2HCCX7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-TJYD2HCCX7');
+        </script>
         
             <link href="assets/img/favicon.png" rel="icon" />
             <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
