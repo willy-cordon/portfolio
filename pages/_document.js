@@ -1,4 +1,18 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import ReactGA from 'react-ga';
+
+const injectGA = () => {
+  if (typeof window == "undefined") {
+  return;
+  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+  window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  
+  gtag("config", "G-TJYD2HCCX7");
+  };
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -16,14 +30,9 @@ class MyDocument extends Document {
         <meta property="og:url" content="https://willycordon.vercel.app/" />
 
        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYD2HCCX7"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-TJYD2HCCX7');
-        </script>
+          {/* Global site tag (gtag.js) - Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYD2HCCX7"></script>
+          <script>{injectGA()}</script>
         
             <link href="assets/img/favicon.png" rel="icon" />
             <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
