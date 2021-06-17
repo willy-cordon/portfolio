@@ -1,18 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import ReactGA from 'react-ga';
-
-const injectGA = () => {
-  if (typeof window == "undefined") {
-  return;
-  }
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-  window.dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  
-  gtag("config", "G-TJYD2HCCX7");
-  };
+import {GA_TRAKING_ID} from '../lib/gtag';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -29,11 +16,24 @@ class MyDocument extends Document {
         <meta property="og:image" itemprop="image primaryImageOfPage" content="assets/img/cort.jpg" />
         <meta property="og:url" content="https://willycordon.vercel.app/" />
 
-       
-          {/* Global site tag (gtag.js) - Google Analytics */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJYD2HCCX7"></script>
-          <script>{injectGA()}</script>
-        
+            {/* Global Site Tag (gtag.js) - Google Analytics */}
+            <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-68D7X7GVFQ`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-68D7X7GVFQ', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+
             <link href="assets/img/favicon.png" rel="icon" />
             <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
