@@ -5,7 +5,7 @@ import Contact from '../components/Contact'
 const contact = () => {
     return (
         <div>
-            <Layout>
+            <Layout style="assets/css/style.css">
                 <Contact></Contact>
             </Layout>
         </div>

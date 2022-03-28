@@ -49,8 +49,9 @@ class MyDocument extends Document {
             <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
 
             
-            <link href="assets/css/style.css" rel="stylesheet" />
+            {/* <link href="assets/css/style.css" rel="stylesheet" /> */}
             <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css"></link>
+            
         </Head>
         <body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left"   > 
           <Main />

@@ -5,7 +5,7 @@ import Main from '../components/Main'
 const index = () => {
     return (
         <div>
-            <Layout>
+            <Layout style="assets/css/style.css">
                 <Main></Main>
             </Layout>
         </div>
