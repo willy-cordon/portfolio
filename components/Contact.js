@@ -5,15 +5,6 @@ import { useEffect } from 'react/cjs/react.development'
 
 const Contact = () => {
 
-  
-    useEffect(()=>{
-        axios.get('https://evening-spire-42034.herokuapp.com/clients')
-        .then((response)=>{
-            console.log(response);
-        })
-
-    })
-
     return (
         <div>
             <section id="contact" className="contact">

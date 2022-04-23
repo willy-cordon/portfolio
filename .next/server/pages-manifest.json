@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
+  "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
+  "/form_portfolio": "pages/form_portfolio.js",
+  "/form_post": "pages/form_post.js",
   "/": "pages/index.js",
-  "/contact": "pages/contact.js"
+  "/portfolio": "pages/portfolio.js",
+  "/resume": "pages/resume.js",
+  "/_error": "pages/_error.js"
 }

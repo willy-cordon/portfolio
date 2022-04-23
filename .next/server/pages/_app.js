@@ -1,21 +1,28 @@
 (function() {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./lib/gtag.js":
-/*!*********************!*\
-  !*** ./lib/gtag.js ***!
-  \*********************/
+/***/ 4010:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "pageview": function() { return /* binding */ pageview; },
-/* harmony export */   "event": function() { return /* binding */ event; }
-/* harmony export */ });
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ App; }
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(5282);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(9297);
+;// CONCATENATED MODULE: external "next/router"
+var router_namespaceObject = require("next/router");;
+;// CONCATENATED MODULE: ./lib/gtag.js
 // lib/gtag.js
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 const pageview = url => {
@@ -24,7 +31,7 @@ const pageview = url => {
   });
 }; // https://developers.google.com/analytics/devguides/collection/gtagjs/events
 
-const event = ({
+const gtag_event = ({
   action,
   category,
   label,
@@ -36,29 +43,8 @@ const event = ({
     value: value
   });
 };
+;// CONCATENATED MODULE: ./pages/_app.js
 
-/***/ }),
-
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ App; }
-/* harmony export */ });
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-
-var _jsxFileName = "C:\\Users\\HP\\Desktop\\portfolio\\pages\\_app.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -75,10 +61,10 @@ function App({
   Component,
   pageProps
 }) {
-  const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();
-  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+  const router = (0,router_namespaceObject.useRouter)();
+  (0,external_react_.useEffect)(() => {
     const handleRouteChange = url => {
-      _lib_gtag__WEBPACK_IMPORTED_MODULE_3__.pageview(url);
+      pageview(url);
     };
 
     router.events.on('routeChangeComplete', handleRouteChange);
@@ -88,30 +74,12 @@ function App({
       // </CRMProvider>
     };
   }, [router.events]);
-  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, _objectSpread({}, pageProps), void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 10
-  }, this);
+  return /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps));
 }
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/***/ (function(module) {
-
-"use strict";
-module.exports = require("next/router");;
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 9297:
 /***/ (function(module) {
 
 "use strict";
@@ -119,14 +87,11 @@ module.exports = require("react");;
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 5282:
 /***/ (function(module) {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");;
+module.exports = require("react/jsx-runtime");;
 
 /***/ })
 
@@ -137,8 +102,7 @@ module.exports = require("react/jsx-dev-runtime");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(4010));
 module.exports = __webpack_exports__;
 
 })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb3J0Zm9saW8vLi9saWIvZ3RhZy5qcyIsIndlYnBhY2s6Ly9wb3J0Zm9saW8vLi9wYWdlcy9fYXBwLmpzIiwid2VicGFjazovL3BvcnRmb2xpby9leHRlcm5hbCBcIm5leHQvcm91dGVyXCIiLCJ3ZWJwYWNrOi8vcG9ydGZvbGlvL2V4dGVybmFsIFwicmVhY3RcIiIsIndlYnBhY2s6Ly9wb3J0Zm9saW8vZXh0ZXJuYWwgXCJyZWFjdC9qc3gtZGV2LXJ1bnRpbWVcIiJdLCJuYW1lcyI6WyJwYWdldmlldyIsInVybCIsIndpbmRvdyIsImd0YWciLCJwYWdlX3BhdGgiLCJldmVudCIsImFjdGlvbiIsImNhdGVnb3J5IiwibGFiZWwiLCJ2YWx1ZSIsImV2ZW50X2NhdGVnb3J5IiwiZXZlbnRfbGFiZWwiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJyb3V0ZXIiLCJ1c2VSb3V0ZXIiLCJ1c2VFZmZlY3QiLCJoYW5kbGVSb3V0ZUNoYW5nZSIsImV2ZW50cyIsIm9uIiwib2ZmIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ08sTUFBTUEsUUFBUSxHQUFJQyxHQUFELElBQVM7QUFDN0JDLFFBQU0sQ0FBQ0MsSUFBUCxDQUFZLFFBQVosRUFBc0IsY0FBdEIsRUFBc0M7QUFDcENDLGFBQVMsRUFBRUg7QUFEeUIsR0FBdEM7QUFHRCxDQUpJLEMsQ0FNTDs7QUFDTyxNQUFNSSxLQUFLLEdBQUcsQ0FBQztBQUFFQyxRQUFGO0FBQVVDLFVBQVY7QUFBb0JDLE9BQXBCO0FBQTJCQztBQUEzQixDQUFELEtBQXdDO0FBQzNEUCxRQUFNLENBQUNDLElBQVAsQ0FBWSxPQUFaLEVBQXFCRyxNQUFyQixFQUE2QjtBQUMzQkksa0JBQWMsRUFBRUgsUUFEVztBQUUzQkksZUFBVyxFQUFFSCxLQUZjO0FBRzNCQyxTQUFLLEVBQUVBO0FBSG9CLEdBQTdCO0FBS0QsQ0FOTSxDOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FDVFQ7QUFDQTtBQUNBO0NBRUE7O0FBRWUsU0FBU0csR0FBVCxDQUFhO0FBQUVDLFdBQUY7QUFBYUM7QUFBYixDQUFiLEVBQXVDO0FBQ3BELFFBQU1DLE1BQU0sR0FBR0Msc0RBQVMsRUFBeEI7QUFDQUMsa0RBQVMsQ0FBQyxNQUFNO0FBQ2QsVUFBTUMsaUJBQWlCLEdBQUlqQixHQUFELElBQVM7QUFDakNFLHFEQUFBLENBQWNGLEdBQWQ7QUFDRCxLQUZEOztBQUdBYyxVQUFNLENBQUNJLE1BQVAsQ0FBY0MsRUFBZCxDQUFpQixxQkFBakIsRUFBd0NGLGlCQUF4QztBQUNBLFdBQU8sTUFBTTtBQUNYSCxZQUFNLENBQUNJLE1BQVAsQ0FBY0UsR0FBZCxDQUFrQixxQkFBbEIsRUFBeUNILGlCQUF6QyxFQURXLENBRVg7QUFDQTtBQUNBO0FBQ0QsS0FMRDtBQU1ELEdBWFEsRUFXTixDQUFDSCxNQUFNLENBQUNJLE1BQVIsQ0FYTSxDQUFUO0FBYUEsc0JBQU8sOERBQUMsU0FBRCxvQkFBZUwsU0FBZjtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBQVA7QUFDRCxDOzs7Ozs7Ozs7OztBQ3RCRCx5Qzs7Ozs7Ozs7Ozs7QUNBQSxtQzs7Ozs7Ozs7Ozs7QUNBQSxtRCIsImZpbGUiOiJwYWdlcy9fYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gbGliL2d0YWcuanNcclxuLy8gaHR0cHM6Ly9kZXZlbG9wZXJzLmdvb2dsZS5jb20vYW5hbHl0aWNzL2Rldmd1aWRlcy9jb2xsZWN0aW9uL2d0YWdqcy9wYWdlc1xyXG5leHBvcnQgY29uc3QgcGFnZXZpZXcgPSAodXJsKSA9PiB7XHJcbiAgICB3aW5kb3cuZ3RhZygnY29uZmlnJywgJ0ctNjhEN1g3R1ZGUScsIHtcclxuICAgICAgcGFnZV9wYXRoOiB1cmwsXHJcbiAgICB9KVxyXG4gIH1cclxuICBcclxuICAvLyBodHRwczovL2RldmVsb3BlcnMuZ29vZ2xlLmNvbS9hbmFseXRpY3MvZGV2Z3VpZGVzL2NvbGxlY3Rpb24vZ3RhZ2pzL2V2ZW50c1xyXG4gIGV4cG9ydCBjb25zdCBldmVudCA9ICh7IGFjdGlvbiwgY2F0ZWdvcnksIGxhYmVsLCB2YWx1ZSB9KSA9PiB7XHJcbiAgICB3aW5kb3cuZ3RhZygnZXZlbnQnLCBhY3Rpb24sIHtcclxuICAgICAgZXZlbnRfY2F0ZWdvcnk6IGNhdGVnb3J5LFxyXG4gICAgICBldmVudF9sYWJlbDogbGFiZWwsXHJcbiAgICAgIHZhbHVlOiB2YWx1ZSxcclxuICAgIH0pXHJcbiAgfSIsIi8vcGFnZXMvX2FwcC5qc1xyXG5pbXBvcnQgeyB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInXHJcbmltcG9ydCAqIGFzIGd0YWcgZnJvbSAnLi4vbGliL2d0YWcnXHJcbi8vIGltcG9ydCB7Q1JNUHJvdmlkZXJ9IGZyb20gJy4uL2NvbnRleHQvQ1JNQ29udGV4dCc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKClcclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgY29uc3QgaGFuZGxlUm91dGVDaGFuZ2UgPSAodXJsKSA9PiB7XHJcbiAgICAgIGd0YWcucGFnZXZpZXcodXJsKVxyXG4gICAgfVxyXG4gICAgcm91dGVyLmV2ZW50cy5vbigncm91dGVDaGFuZ2VDb21wbGV0ZScsIGhhbmRsZVJvdXRlQ2hhbmdlKVxyXG4gICAgcmV0dXJuICgpID0+IHtcclxuICAgICAgcm91dGVyLmV2ZW50cy5vZmYoJ3JvdXRlQ2hhbmdlQ29tcGxldGUnLCBoYW5kbGVSb3V0ZUNoYW5nZSk7XHJcbiAgICAgIC8vIDxDUk1Qcm92aWRlcj5cclxuICAgICAgLy8gICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cclxuICAgICAgLy8gPC9DUk1Qcm92aWRlcj5cclxuICAgIH1cclxuICB9LCBbcm91dGVyLmV2ZW50c10pXHJcblxyXG4gIHJldHVybiA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcbn0iLCJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJuZXh0L3JvdXRlclwiKTs7IiwibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwicmVhY3RcIik7OyIsIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiKTs7Il0sInNvdXJjZVJvb3QiOiIifQ==
