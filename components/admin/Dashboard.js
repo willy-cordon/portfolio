@@ -1,12 +1,17 @@
 import React from 'react'
-
+import ClientAxios from 'axios'
+import { useEffect } from 'react/cjs/react.production.min'
 const dashboard = () => {
+
+  //similar a componentDidmount y willmount
+  useEffect(()=>{
+
+  })
+
   return (
     <div>
         <div class="content-wrapper">
-            
-            
-           
+    
             <div class="row">
               <div class="col-sm-4 grid-margin">
                 <div class="card">

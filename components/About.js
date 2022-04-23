@@ -8,7 +8,7 @@ const About = () => {
 
                 <div className="section-title">
                 <h2>About</h2>
-                <p> Hola mi nombre es Willy Cordon, soy un desarrollador web Full Stack, apasionado por la tegnologia, pasion que me llevo a estar en este mundo de la programacion ya hace mas de 3 años </p>
+                <p> Hola mi nombre es Willy Cordon, soy un desarrollador web Full Stack, apasionado por la tegnologia, pasion que me llevo a dedicarme tiempo completo a esta hermosa profesión.  </p>
                 </div>
 
                 <div className="row">
@@ -24,7 +24,7 @@ const About = () => {
                     <div className="row">
                     <div className="col-lg-6">
                         <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Cumpleaños:</strong> 5 de junio 1993</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Cumpleaños:</strong> 5 de junio</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Web:</strong> willycordon.dev</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Celular:</strong> +54 1164595061</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Ciudad:</strong> Buenos Aires - Argentina</li>
@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                     <div className="col-lg-6">
                         <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Edad:</strong> 27</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Edad:</strong> 28</li>
                         {/* <li><i className="icofont-rounded-right"></i> <strong>P:</strong> Master</li> */}
                         <li><i className="icofont-rounded-right"></i> <strong>E-mail:</strong> willy.cordon93@gmail.com</li>
                         <li><i className="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
@@ -40,7 +40,7 @@ const About = () => {
                     </div>
                     </div>
                     <p>
-                    Como desarrollador web, disfruto usar mi obsesiva atención a los detalles, mi amor inequívoco por hacer cosas y mi ética de trabajo impulsada por la misión para literalmente cambiar el mundo. Es por eso que estoy emocionado de tener un gran impacto en una empresa de alto crecimiento.
+                    Como desarrollador web, disfruto usar mi obsesiva atención a los detalles, mi amor inequívoco por hacer cosas y mi ética de trabajo impulsada por la misión para literalmente cambiar el mundo.
                     </p>
            
                 </div>

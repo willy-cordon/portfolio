@@ -9,7 +9,7 @@ const Portfolio = () => {
 
                 <div className="section-title">
                 <h2>Portafolio</h2>
-                <p>A continuación les presento alguno de mis trabajos más representativos, la mayoría los hice en las empresas que estuve</p>
+                <p>A continuación les presento alguno de mis trabajos más representativos</p>
                 </div>
 
                 {/* <div className="row">

@@ -50,7 +50,21 @@ const Resume = () => {
                     <h3 className="resume-title">Experiencia Profecional</h3>
                     <div className="resume-item">
                     <h4>SSR Full Stack developer</h4>
-                    <h5>2020 - Actualidad</h5>
+                    <h5>2021 - Actualidad</h5>
+                    <p><em>Provincia Net</em></p>
+                    <ul>
+                        <li>Desarrollo e implementacion de componentes y modulos para aplicaciones web</li>
+                        <li>Desarrollo Servicios y microservicios</li>
+                        <li>Desarrollo API</li>
+                        <li>Manejo de base de datos MySQL </li>
+                        <li>Scrum</li>
+                        <li>Arquitectura de proyectos</li>
+                        
+                    </ul>
+                    </div>
+                    <div className="resume-item">
+                    <h4>SSR Full Stack developer</h4>
+                    <h5>2020 - 2021</h5>
                     <p><em>Agencia Broobe </em></p>
                     <ul>
                         <li>Desarrollo e implementacion de componentes y modulos para aplicaciones web</li>

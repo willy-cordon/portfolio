@@ -1,7 +1,7 @@
 // pages/examplepage.tsx
 
 import React, { useState } from 'react';
-import Head from 'next/head'; // We import `Head` from `next/head `!
+import Head from 'next/head';
 import ClientAxios from 'axios'
 import Swal from 'sweetalert2'
 import { useRouter } from 'next/router';
@@ -34,9 +34,6 @@ const Login = () => {
                     text: error.response.data.mensaje
                 })
             }
-            //     if(error.response.data.status === 'error') {
-            //         console.log('algo salio mal');
-            // }
 
         }
 
