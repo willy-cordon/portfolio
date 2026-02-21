@@ -2,119 +2,53 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div> 
+        <div>
             <section id="about" className="about">
-            <div className="container" data-aos="fade-up">
+                <div className="container" data-aos="fade-up">
 
-                <div className="section-title">
-                <h2>About</h2>
-                <p> Hola mi nombre es Willy Cordon, soy un desarrollador web Full Stack, apasionado por la tegnologia, pasion que me llevo a dedicarme tiempo completo a esta hermosa profesión.  </p>
-                </div>
+                    <div className="section-title">
+                        <h2>Sobre mí</h2>
+                        <p>
+                            Hola, mi nombre es Willy Cordon. Soy Desarrollador Web Full Stack y Líder Técnico,
+                            apasionado por la tecnología. Esa pasión me llevó a dedicarme de forma profesional y
+                            constante a crear soluciones digitales escalables y de calidad.
+                        </p>
+                    </div>
 
-                <div className="row">
-                <div className="col-lg-4">
-                    <img src="assets/img/asset.svg" className="img-fluid" alt="" />
-                </div>
-                <div className="col-lg-8 pt-4 pt-lg-0 content">
-                    <h3>Algunos datos 📄</h3>
-                        {/* <p className="font-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                        </p> */}
                     <div className="row">
-                    <div className="col-lg-6">
-                        <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Cumpleaños:</strong> 5 de junio</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Web:</strong> willycordon.dev</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Celular:</strong> +54 1164595061</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Ciudad:</strong> Buenos Aires - Argentina</li>
-                        </ul>
-                    </div>
-                    <div className="col-lg-6">
-                        <ul>
-                        <li><i className="icofont-rounded-right"></i> <strong>Edad:</strong> 28</li>
-                        {/* <li><i className="icofont-rounded-right"></i> <strong>P:</strong> Master</li> */}
-                        <li><i className="icofont-rounded-right"></i> <strong>E-mail:</strong> willy.cordon93@gmail.com</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <p>
-                    Como desarrollador web, disfruto usar mi obsesiva atención a los detalles, mi amor inequívoco por hacer cosas y mi ética de trabajo impulsada por la misión para literalmente cambiar el mundo.
-                    </p>
-           
-                </div>
-                </div>
+                        <div className="col-lg-4">
+                            <img src="assets/img/asset.svg" className="img-fluid" alt="Ilustración de perfil" />
+                        </div>
+                        <div className="col-lg-8 pt-4 pt-lg-0 content">
+                            <h3>Algunos datos 📄</h3>
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <ul>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Cumpleaños:</strong> 5 de junio</li>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Web:</strong> willycordon.dev</li>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Celular:</strong> +54 11 6459-5061</li>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Ciudad:</strong> Buenos Aires, Argentina</li>
+                                    </ul>
+                                </div>
+                                <div className="col-lg-6">
+                                    <ul>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Edad:</strong> 28</li>
+                                        <li><i className="icofont-rounded-right"></i> <strong>E-mail:</strong> willy.cordon93@gmail.com</li>
+                                        <li><i className="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>
+                                Me enfoco en construir productos mantenibles, con buenas prácticas y una fuerte atención
+                                al detalle. Disfruto liderar equipos, mejorar procesos y convertir necesidades de negocio
+                                en soluciones técnicas concretas.
+                            </p>
 
-            </div>
+                        </div>
+                    </div>
+
+                </div>
             </section>
-
-            
-            {/* <section id="skills" className="skills section-bg">
-            <div className="container" data-aos="fade-up">
-
-                <div className="section-title">
-                <h2>Skills</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div className="row skills-content">
-
-                <div className="col-lg-6">
-
-                    <div className="progress">
-                    <span className="skill">HTML <i className="val">100%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                    <div className="progress">
-                    <span className="skill">CSS <i className="val">90%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                    <div className="progress">
-                    <span className="skill">JavaScript <i className="val">75%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                </div>
-
-                <div className="col-lg-6">
-
-                    <div className="progress">
-                    <span className="skill">PHP <i className="val">80%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                    <div className="progress">
-                    <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                    <div className="progress">
-                    <span className="skill">Photoshop <i className="val">55%</i></span>
-                    <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    </div>
-
-                </div>
-
-                </div>
-
-            </div>
-            </section> */}
-  
         </div>
     )
 }

@@ -1,31 +1,24 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
     return (
         <div>
-            
             <footer id="footer">
                 <div className="container">
-                <h3>Brandon Johnson</h3>
-                <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-                <div className="social-links">
-                    <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                    <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                    <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                    <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                    <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                </div>
-                <div className="copyright">
-                    &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-                </div>
-                <div className="credits">
-                    
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                </div>
+                    <h3>Willy Cordon</h3>
+                    <p>Desarrollador Full Stack y Líder Técnico especializado en Laravel, Vue 2 y Vue 3.</p>
+                    <div className="social-links">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/willy-cordon" className="github"><i className="bx bxl-github"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/willycordon93" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/willy.cordon/" className="instagram"><i className="bx bxl-instagram"></i></a>
+                    </div>
+                    <div className="copyright">
+                        &copy; {new Date().getFullYear()} <strong><span>Willy Cordon</span></strong>. Todos los derechos reservados.
+                    </div>
                 </div>
             </footer>
         </div>
     )
 }
 
-export default footer
+export default Footer

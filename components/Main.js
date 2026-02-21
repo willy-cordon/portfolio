@@ -4,7 +4,7 @@ import Initial from './Initial'
 const Main = () => {
     return (
         <div>
-            <Initial></Initial>
+            <Initial />
         </div>
     )
 }
